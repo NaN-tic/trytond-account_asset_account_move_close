@@ -6,5 +6,5 @@ from . import asset
 
 def register():
     Pool.register(
-        asset. Asset,
+        asset.Asset,
         module='account_asset_account_move_close', type_='model')
