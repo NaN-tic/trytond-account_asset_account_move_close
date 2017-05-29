@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of this
+     repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='info']/separator[@name='comment']"
+            position="before">
+        <label name="square_account"/>
+        <field name="square_account"/>
+    </xpath>
+
+    <xpath expr="/form/notebook/page[@id='lines']/group[@id='state_buttons']/group[@id='buttons']/button[@name='close']" position="replace">
+        <button name="close" string="Close" icon="tryton-close"
+            confirm="Are you sure to close the asset? Check the Square Account field is filled if you require it."/>
+    </xpath>
+</data>

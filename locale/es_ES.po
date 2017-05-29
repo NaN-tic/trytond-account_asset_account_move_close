@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.asset,square_account:"
+msgid "Square Account"
+msgstr "Cuenta de cuadre"
+
+msgctxt "view:account.asset:"
+msgid ""
+"Are you sure to close the asset? Check the Square Account field is filled if"
+" you require it."
+msgstr ""
+"¿Está seguro que quiere cerrar el activo? Comprueba que la cuenta de cuadre "
+"esta llena, si es necesaria."
+
+msgctxt "view:account.asset:"
+msgid "Close"
+msgstr "Cierra"
